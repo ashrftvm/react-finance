@@ -1,2 +1,2 @@
 Finance tracker app
-integrating git into vscode
+integrating git into vscode again
