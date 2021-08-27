@@ -15,7 +15,7 @@ const Expenses = (props) => {
       return expense.date.getFullYear().toString() === filteredYear
   })
   
-  let expensesContent = <p>No Expenses found.</p>
+  let expensesContent = <p className="expenses-list__fallback">No Expenses found.</p>
 
   if(filteredExpenses.length > 0){
       expensesContent = filteredExpenses.map((el) => 
